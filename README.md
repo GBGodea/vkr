@@ -1,10 +1,5 @@
 # VKR Formal Verification Workspace
 
-Проект теперь состоит из двух Maven-модулей:
-
-- `formal-verification-core` - отдельная библиотека исполняемых контрактов, инвариантов и аннотаций спецификаций.
-- `bank-application` - Spring Boot банковский MVP, который применяет библиотеку к критичным методам счетов и переводов.
-
 Подробное описание формальной части: [`docs/formal-verification.md`](docs/formal-verification.md).
 
 ## Предметная область
