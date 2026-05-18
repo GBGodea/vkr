@@ -84,8 +84,6 @@ mvn test
 jbmc --classpath "bank-application\target\test-classes;bank-application\target\classes;formal-verification-core\target\classes" com.example.bank.verification.BankOperationVerificationHarness
 ```
 
-На этой машине `jbmc` не установлен в `PATH`, поэтому фактический model-checking run здесь завершить нельзя. Harness успешно компилируется Maven и готов к запуску после установки JBMC.
-
 ## Пример JML-контракта
 
 Самый показательный метод - упрощенный перевод:
