@@ -153,8 +153,7 @@ public class BankService {
         BigDecimal targetBalanceBefore = target.getBalance();
         BigDecimal totalBefore = sourceBalanceBefore.add(targetBalanceBefore);
 
-        source.withdraw(amount);
-        target.deposit(amount);
+        source.transferTo(target, amount);
 
         ensureBalanceEquals(source.getBalance(), sourceBalanceBefore.subtract(amount),
                 "Transfer source postcondition failed");

@@ -1,0 +1,1575 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: com.example.bank.verification.BankOperationVerificationHarness",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: com.example.bank.verification.BankOperationVerificationHarness",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 140 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::com.example.bank.verification.VerifiedAccountModel.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.Contract.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::ru.vkr.verification.ConditionType.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/verification/VerifiedAccountModel.java line 64 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 42 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/verification/VerifiedAccountModel.java line 65 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 54 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::com.example.bank.verification.BankOperationVerificationHarness.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/verification/BankOperationVerificationHarness.java line 46 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 53 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/verification/BankOperationVerificationHarness.java line 47 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 65 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.287439s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 7460 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 1 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 354 VCC(s), 15 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 0.0009648s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0198462s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "65636 variables, 63126 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.185291s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.20535s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "36",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.<clinit>:()V",
+          "line": "5",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "32",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "41",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "35",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "42",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "39",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "44",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "43",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "46",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "52",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "46",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/verification/BankOperationVerificationHarness.java line 46 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 53",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "53",
+          "comment": "assertion at file com/example/bank/verification/BankOperationVerificationHarness.java line 46 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 53",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "46",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.assertion.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.6",
+        "sourceLocation": {
+          "bytecodeIndex": "57",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "47",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.7",
+        "sourceLocation": {
+          "bytecodeIndex": "64",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "47",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.null-pointer-exception.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/verification/BankOperationVerificationHarness.java line 47 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 65",
+        "property": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.assertion.2",
+        "sourceLocation": {
+          "bytecodeIndex": "65",
+          "comment": "assertion at file com/example/bank/verification/BankOperationVerificationHarness.java line 47 function java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V bytecode-index 65",
+          "file": "com/example/bank/verification/BankOperationVerificationHarness.java",
+          "function": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V",
+          "line": "47",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.verification.BankOperationVerificationHarness.verifyWithdraw:()V.assertion.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<clinit>:()V",
+          "line": "10",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V",
+          "line": "19",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "18",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V",
+          "line": "22",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "21",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V",
+          "line": "23",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "24",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V",
+          "line": "24",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "26",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V",
+          "line": "25",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.<init>:(JI)V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.balanceCents:()J.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "2",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.balanceCents:()J",
+          "line": "29",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.balanceCents:()J.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "2",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V",
+          "line": "124",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "7",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V",
+          "line": "125",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "11",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V",
+          "line": "125",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.verifyInvariant:()V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "3",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "56",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "12",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "58",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "12",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "58",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "19",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "59",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "22",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "61",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.6",
+        "sourceLocation": {
+          "bytecodeIndex": "28",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "62",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.7",
+        "sourceLocation": {
+          "bytecodeIndex": "28",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "62",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.8",
+        "sourceLocation": {
+          "bytecodeIndex": "37",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "64",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.9",
+        "sourceLocation": {
+          "bytecodeIndex": "37",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "64",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.10",
+        "sourceLocation": {
+          "bytecodeIndex": "41",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "64",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.10"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/verification/VerifiedAccountModel.java line 64 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 42",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "42",
+          "comment": "assertion at file com/example/bank/verification/VerifiedAccountModel.java line 64 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 42",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "64",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.assertion.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.11",
+        "sourceLocation": {
+          "bytecodeIndex": "49",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "65",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.11"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.12",
+        "sourceLocation": {
+          "bytecodeIndex": "49",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "65",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.12"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.13",
+        "sourceLocation": {
+          "bytecodeIndex": "53",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "65",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.13"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/verification/VerifiedAccountModel.java line 65 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 54",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.assertion.2",
+        "sourceLocation": {
+          "bytecodeIndex": "54",
+          "comment": "assertion at file com/example/bank/verification/VerifiedAccountModel.java line 65 function java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V bytecode-index 54",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "65",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.assertion.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.14",
+        "sourceLocation": {
+          "bytecodeIndex": "61",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "66",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.14"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.15",
+        "sourceLocation": {
+          "bytecodeIndex": "61",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "66",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.15"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.16",
+        "sourceLocation": {
+          "bytecodeIndex": "68",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/verification/VerifiedAccountModel.java",
+          "function": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V",
+          "line": "67",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.verification.VerifiedAccountModel.withdraw:(J)V.null-pointer-exception.16"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion",
+        "property": "java::java.lang.String.trim:()Ljava/lang/String;.1",
+        "sourceLocation": {
+          "function": "java::java.lang.String.trim:()Ljava/lang/String;",
+          "propertyId": "java::java.lang.String.trim:()Ljava/lang/String;.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion",
+        "property": "java::java.lang.String.trim:()Ljava/lang/String;.2",
+        "sourceLocation": {
+          "function": "java::java.lang.String.trim:()Ljava/lang/String;",
+          "propertyId": "java::java.lang.String.trim:()Ljava/lang/String;.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion",
+        "property": "java::java.lang.String.trim:()Ljava/lang/String;.3",
+        "sourceLocation": {
+          "function": "java::java.lang.String.trim:()Ljava/lang/String;",
+          "propertyId": "java::java.lang.String.trim:()Ljava/lang/String;.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-create-negative-size.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Array size should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "5",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.1",
+        "sourceLocation": {
+          "bytecodeIndex": "5",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.1",
+        "sourceLocation": {
+          "bytecodeIndex": "5",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "9",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.2",
+        "sourceLocation": {
+          "bytecodeIndex": "9",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.2",
+        "sourceLocation": {
+          "bytecodeIndex": "9",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "13",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.3",
+        "sourceLocation": {
+          "bytecodeIndex": "13",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.3",
+        "sourceLocation": {
+          "bytecodeIndex": "13",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "17",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.4",
+        "sourceLocation": {
+          "bytecodeIndex": "17",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.4",
+        "sourceLocation": {
+          "bytecodeIndex": "17",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "21",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.5",
+        "sourceLocation": {
+          "bytecodeIndex": "21",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-low.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.5",
+        "sourceLocation": {
+          "bytecodeIndex": "21",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;",
+          "line": "3",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ConditionType.$values:()[Lru/vkr/verification/ConditionType;.array-index-out-of-bounds-high.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "4",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "10",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<clinit>:()V",
+          "line": "5",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "16",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<clinit>:()V",
+          "line": "6",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "22",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<clinit>:()V",
+          "line": "7",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "28",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<clinit>:()V",
+          "line": "8",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<clinit>:()V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ConditionType.<init>:(Ljava/lang/String;I)V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "3",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ConditionType.java",
+          "function": "java::ru.vkr.verification.ConditionType.<init>:(Ljava/lang/String;I)V",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ConditionType.<init>:(Ljava/lang/String;I)V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.<clinit>:()V",
+          "line": "3",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-create-negative-size.1",
+        "sourceLocation": {
+          "bytecodeIndex": "11",
+          "comment": "Array size should be >= 0",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "15",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-low.1",
+        "sourceLocation": {
+          "bytecodeIndex": "15",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-low.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-high.1",
+        "sourceLocation": {
+          "bytecodeIndex": "15",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-high.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "19",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-low.2",
+        "sourceLocation": {
+          "bytecodeIndex": "19",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-low.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-high.2",
+        "sourceLocation": {
+          "bytecodeIndex": "19",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.array-index-out-of-bounds-high.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "20",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "21",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "22",
+          "comment": "assertion at file ru/vkr/verification/Contract.java line 40 function java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V bytecode-index 22",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "40",
+          "propertyClass": "assertion",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.assertion.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "29",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "42",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.6",
+        "sourceLocation": {
+          "bytecodeIndex": "30",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V",
+          "line": "42",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.check:(Lru/vkr/verification/ConditionType;ZLjava/lang/String;)V.null-pointer-exception.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "3",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;",
+          "line": "47",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "8",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/Contract.java",
+          "function": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;",
+          "line": "50",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.Contract.normalizeDescription:(Ljava/lang/String;)Ljava/lang/String;.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-create-negative-size.1",
+        "sourceLocation": {
+          "bytecodeIndex": "3",
+          "comment": "Array size should be >= 0",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "7",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-low.1",
+        "sourceLocation": {
+          "bytecodeIndex": "7",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-low.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-high.1",
+        "sourceLocation": {
+          "bytecodeIndex": "7",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-high.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "11",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-low.2",
+        "sourceLocation": {
+          "bytecodeIndex": "11",
+          "comment": "Array index should be >= 0",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-low.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-high.2",
+        "sourceLocation": {
+          "bytecodeIndex": "11",
+          "comment": "Array index should be < length",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.array-index-out-of-bounds-high.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "12",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "13",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "8",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "16",
+          "comment": "Null pointer check",
+          "file": "ru/vkr/verification/ContractViolationException.java",
+          "function": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V",
+          "line": "9",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::ru.vkr.verification.ContractViolationException.<init>:(Lru/vkr/verification/ConditionType;Ljava/lang/String;)V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION SUCCESSFUL",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "success"
+  }
+]

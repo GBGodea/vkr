@@ -18,6 +18,13 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
+            <artifactId>formal-verification-processor</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
             <artifactId>formal-verification-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -38,6 +45,15 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessors>
+                        <annotationProcessor>ru.vkr.verification.processor.VerificationProcessor</annotationProcessor>
+                    </annotationProcessors>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

@@ -1,0 +1,2623 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 29 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 15 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V bytecode-index 88 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.0076939s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 214 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 4 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 4 VCC(s), 1 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 3.82e-05s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0018404s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "2909 variables, 5780 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is SATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got SAT, and it simulates => SAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0012638s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0031864s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Building error trace",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+          "line": "6",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "87",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+          "line": "15",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 15 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V bytecode-index 88",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "88",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 15 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V bytecode-index 88",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+          "line": "15",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.assertion.1"
+        },
+        "status": "FAILURE",
+        "trace": [
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": true,
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "__CPROVER_rounding_mode",
+            "mode": "C",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "signed int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "@inflight_exception",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$com_example_bank_domain_BankArithmetic_transfer_long_long_long_Verification$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0",
+              "data": false,
+              "name": "boolean"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification@class_model.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.String",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE.length",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000011010",
+              "data": "26",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE.data",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "name": "unknown"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "0000000001000110",
+                    "data": "'F'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "0000000001010110",
+                    "data": "'V'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "0000000001010000",
+                    "data": "'P'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 5,
+                  "value": {
+                    "binary": "0000000001000101",
+                    "data": "'E'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 6,
+                  "value": {
+                    "binary": "0000000001000011",
+                    "data": "'C'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 7,
+                  "value": {
+                    "binary": "0000000001001111",
+                    "data": "'O'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 8,
+                  "value": {
+                    "binary": "0000000001001110",
+                    "data": "'N'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 9,
+                  "value": {
+                    "binary": "0000000001000100",
+                    "data": "'D'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 10,
+                  "value": {
+                    "binary": "0000000001001001",
+                    "data": "'I'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 11,
+                  "value": {
+                    "binary": "0000000001010100",
+                    "data": "'T'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 12,
+                  "value": {
+                    "binary": "0000000001001001",
+                    "data": "'I'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 13,
+                  "value": {
+                    "binary": "0000000001001111",
+                    "data": "'O'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 14,
+                  "value": {
+                    "binary": "0000000001001110",
+                    "data": "'N'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 15,
+                  "value": {
+                    "binary": "0000000001010011",
+                    "data": "'S'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 16,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 17,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 18,
+                  "value": {
+                    "binary": "0000000001000101",
+                    "data": "'E'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 19,
+                  "value": {
+                    "binary": "0000000001000001",
+                    "data": "'A'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 20,
+                  "value": {
+                    "binary": "0000000001000011",
+                    "data": "'C'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 21,
+                  "value": {
+                    "binary": "0000000001001000",
+                    "data": "'H'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 22,
+                  "value": {
+                    "binary": "0000000001000001",
+                    "data": "'A'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 23,
+                  "value": {
+                    "binary": "0000000001000010",
+                    "data": "'B'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 24,
+                  "value": {
+                    "binary": "0000000001001100",
+                    "data": "'L'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 25,
+                  "value": {
+                    "binary": "0000000001000101",
+                    "data": "'E'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[0L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000110",
+              "data": "'F'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[1L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010110",
+              "data": "'V'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[2L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[3L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010000",
+              "data": "'P'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[4L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[5L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000101",
+              "data": "'E'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[6L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000011",
+              "data": "'C'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[7L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001111",
+              "data": "'O'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[8L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001110",
+              "data": "'N'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[9L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000100",
+              "data": "'D'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[10L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001001",
+              "data": "'I'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[11L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010100",
+              "data": "'T'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[12L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001001",
+              "data": "'I'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[13L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001111",
+              "data": "'O'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[14L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001110",
+              "data": "'N'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[15L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010011",
+              "data": "'S'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[16L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[17L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[18L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000101",
+              "data": "'E'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[19L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000001",
+              "data": "'A'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[20L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000011",
+              "data": "'C'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[21L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001000",
+              "data": "'H'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[22L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000001",
+              "data": "'A'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[23L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000010",
+              "data": "'B'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[24L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001100",
+              "data": "'L'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_constarray[25L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000101",
+              "data": "'E'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PRECONDITIONS__REACHABLE_return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "uncaught_exception'",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions()",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "sourceLocation": {
+                "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+                "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+                "line": "6"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp8",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp7",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp6",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp5",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp4",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp3",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "amount",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "target",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "source",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "org.cprover.CProver.nondetLong:()J#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "source",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "6"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "7"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "7"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "org.cprover.CProver.nondetLong:()J#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "7"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "target",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "7"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "4",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "8"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "4",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "8"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "org.cprover.CProver.nondetLong:()J#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp2",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "4",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "8"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "amount",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "8"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000001000000000000000000000000000000000000000",
+              "data": "549755813888L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "9"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "9"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp3",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "15",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "9"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "17",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "9"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "21",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "25",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp4",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "27",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "29",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "33",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "37",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp5",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "39",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "41",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "45",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "49",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "53",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "57",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp6",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "59",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "61",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "67",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp7",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "71",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "77",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "14"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp8",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "79",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "14"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "81",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "14"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "82",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "82",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$com_example_bank_domain_BankArithmetic_transfer_long_long_long_Verification$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "1",
+              "data": true,
+              "name": "boolean"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>()",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "sourceLocation": {
+                "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+                "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+                "line": "4"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification@class_model",
+              "name": "pointer",
+              "type": "struct java.lang.Class *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "java.lang.Class.desiredAssertionStatus:()Z#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>()",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+              "sourceLocation": {
+                "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+                "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+                "line": "4"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "83",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "new_tmp9",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "84",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@class_identifier",
+                  "value": {
+                    "data": "java::java.lang.Class",
+                    "name": "string"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "84",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "new_tmp9",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "84",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "84",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.AssertionError",
+              "name": "string"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "87",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:(Ljava/lang/Object;)V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "87",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": true,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "87",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "stub_ignored_arg1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "87",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java.lang.String.Literal.FV__PRECONDITIONS__REACHABLE",
+              "name": "pointer",
+              "type": "struct java.lang.Object *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "to_construct",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:(Ljava/lang/Object;)V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "internal": false,
+            "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.assertion.1",
+            "reason": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 15 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V bytecode-index 88",
+            "sourceLocation": {
+              "bytecodeIndex": "88",
+              "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 15 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V bytecode-index 88",
+              "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+              "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V",
+              "line": "15",
+              "propertyClass": "assertion",
+              "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.preconditions:()V.assertion.1"
+            },
+            "stepType": "failure",
+            "thread": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION FAILED",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "failure"
+  }
+]

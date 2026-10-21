@@ -41,7 +41,7 @@ public class Account {
         Contract.requires(BigDecimalSpec.isPositive(amount), "deposit amount must be positive");
         verifyInvariant();
         BigDecimal balanceBefore = balance;
-        balance = balance.add(amount);
+        balance = DecimalMoneyOperations.deposit(balance, amount);
         Contract.ensures(BigDecimalSpec.isEqualByValue(balance, balanceBefore.add(amount)),
                 "deposit must increase balance by amount");
         verifyInvariant();
@@ -54,10 +54,28 @@ public class Account {
         Contract.requires(balance.compareTo(amount) >= 0, "withdraw amount must not exceed balance");
         verifyInvariant();
         BigDecimal balanceBefore = balance;
-        balance = balance.subtract(amount);
+        balance = DecimalMoneyOperations.withdraw(balance, amount);
         Contract.ensures(BigDecimalSpec.isEqualByValue(balance, balanceBefore.subtract(amount)),
                 "withdraw must decrease balance by amount");
         verifyInvariant();
+    }
+
+    /** Calculates both new balances before changing the two accounts. Persistence is handled by the service. */
+    public void transferTo(Account target, BigDecimal amount) {
+        Contract.requires(target != null && target != this, "transfer requires two distinct accounts");
+        Contract.requires(BigDecimalSpec.isPositive(amount), "transfer amount must be positive");
+        Contract.requires(balance.compareTo(amount) >= 0, "transfer amount must not exceed balance");
+        Contract.requires(status == AccountStatus.ACTIVE && target.status == AccountStatus.ACTIVE, "accounts must be active");
+        Contract.requires(currency.equals(target.currency), "currencies must match");
+        verifyInvariant();
+        target.verifyInvariant();
+        BigDecimal totalBefore = balance.add(target.balance);
+        BigDecimal[] result = DecimalMoneyOperations.transfer(balance, target.balance, amount);
+        balance = result[0];
+        target.balance = result[1];
+        Contract.ensures(BigDecimalSpec.isEqualByValue(balance.add(target.balance), totalBefore), "transfer must preserve total");
+        verifyInvariant();
+        target.verifyInvariant();
     }
 
     @Precondition("reason and blockedAt are defined")

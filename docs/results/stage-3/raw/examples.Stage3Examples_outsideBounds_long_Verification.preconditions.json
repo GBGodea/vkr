@@ -1,0 +1,272 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: examples.Stage3Examples_outsideBounds_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: examples.Stage3Examples_outsideBounds_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 8 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::examples.Stage3Examples_outsideBounds_long_Verification.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file examples/Stage3Examples_outsideBounds_long_Verification.java line 9 function java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V bytecode-index 28 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.0042044s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 154 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 4 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 4 VCC(s), 1 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 4.46e-05s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0004913s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "927 variables, 909 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0007533s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0013116s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "examples/Stage3Examples_outsideBounds_long_Verification.java",
+          "function": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V",
+          "line": "6",
+          "propertyId": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::examples.Stage3Examples_outsideBounds_long_Verification.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "examples/Stage3Examples_outsideBounds_long_Verification.java",
+          "function": "java::examples.Stage3Examples_outsideBounds_long_Verification.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::examples.Stage3Examples_outsideBounds_long_Verification.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "27",
+          "comment": "Null pointer check",
+          "file": "examples/Stage3Examples_outsideBounds_long_Verification.java",
+          "function": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V",
+          "line": "9",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file examples/Stage3Examples_outsideBounds_long_Verification.java line 9 function java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V bytecode-index 28",
+        "property": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "28",
+          "comment": "assertion at file examples/Stage3Examples_outsideBounds_long_Verification.java line 9 function java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V bytecode-index 28",
+          "file": "examples/Stage3Examples_outsideBounds_long_Verification.java",
+          "function": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V",
+          "line": "9",
+          "propertyClass": "assertion",
+          "propertyId": "java::examples.Stage3Examples_outsideBounds_long_Verification.preconditions:()V.assertion.1"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION SUCCESSFUL",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "success"
+  }
+]

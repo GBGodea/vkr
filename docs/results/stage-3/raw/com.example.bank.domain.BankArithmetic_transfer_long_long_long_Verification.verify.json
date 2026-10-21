@@ -1,0 +1,1096 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 29 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 33 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 122 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 34 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 137 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 35 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 154 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 36 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 173 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.0312846s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 725 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 1 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 60 VCC(s), 5 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 9.25e-05s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0048122s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "10162 variables, 24587 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.61031s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.615248s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "19",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "17",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J",
+          "line": "20",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "18",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J",
+          "line": "20",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.deposit:(JJ)J.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "25",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "46",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "26",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "46",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-create-negative-size.1",
+        "sourceLocation": {
+          "bytecodeIndex": "28",
+          "comment": "Array size should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "34",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-low.1",
+        "sourceLocation": {
+          "bytecodeIndex": "34",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-low.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-high.1",
+        "sourceLocation": {
+          "bytecodeIndex": "34",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-high.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "40",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-low.2",
+        "sourceLocation": {
+          "bytecodeIndex": "40",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-low.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-high.2",
+        "sourceLocation": {
+          "bytecodeIndex": "40",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J",
+          "line": "48",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.transfer:(JJJ)[J.array-index-out-of-bounds-high.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "15",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J",
+          "line": "30",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "16",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J",
+          "line": "30",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "102",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "32",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "106",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "32",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 32 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 107",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "107",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 32 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 107",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "32",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.3",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.1",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.1",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.4",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.2",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.2",
+        "sourceLocation": {
+          "bytecodeIndex": "117",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.5",
+        "sourceLocation": {
+          "bytecodeIndex": "121",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 33 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 122",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.2",
+        "sourceLocation": {
+          "bytecodeIndex": "122",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 33 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 122",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "33",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.6",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.3",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.3",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.7",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.4",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.4",
+        "sourceLocation": {
+          "bytecodeIndex": "132",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.8",
+        "sourceLocation": {
+          "bytecodeIndex": "136",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 34 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 137",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.3",
+        "sourceLocation": {
+          "bytecodeIndex": "137",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 34 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 137",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "34",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.9",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.5",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.5",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.10",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.10"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.6",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.6",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.11",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.11"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.7",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.7",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.12",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.12"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.8",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.8",
+        "sourceLocation": {
+          "bytecodeIndex": "149",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.13",
+        "sourceLocation": {
+          "bytecodeIndex": "153",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.13"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 35 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 154",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.4",
+        "sourceLocation": {
+          "bytecodeIndex": "154",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 35 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 154",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "35",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.14",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.14"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.9",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.9",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.15",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.15"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.10",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.10"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.10",
+        "sourceLocation": {
+          "bytecodeIndex": "162",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.10"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.16",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.16"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.11",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.11"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.11",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.11"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.17",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.17"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be >= 0",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.12",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Array index should be >= 0",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-low",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-low.12"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array index should be < length",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.12",
+        "sourceLocation": {
+          "bytecodeIndex": "168",
+          "comment": "Array index should be < length",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "array-index-out-of-bounds-high",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.array-index-out-of-bounds-high.12"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.18",
+        "sourceLocation": {
+          "bytecodeIndex": "172",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.null-pointer-exception.18"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 36 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 173",
+        "property": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.5",
+        "sourceLocation": {
+          "bytecodeIndex": "173",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java line 36 function java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V bytecode-index 173",
+          "file": "com/example/bank/domain/BankArithmetic_transfer_long_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V",
+          "line": "36",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_transfer_long_long_long_Verification.verify:()V.assertion.5"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION SUCCESSFUL",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "success"
+  }
+]

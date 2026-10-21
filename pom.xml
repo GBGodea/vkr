@@ -20,6 +20,7 @@
 
     <modules>
         <module>formal-verification-core</module>
+        <module>formal-verification-processor</module>
         <module>bank-application</module>
     </modules>
 

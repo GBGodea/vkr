@@ -1,0 +1,332 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 20 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 22 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 62 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 23 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.0104552s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 311 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 1 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 8 VCC(s), 3 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 4.72e-05s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0018351s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "3963 variables, 7859 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0384275s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0403504s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V",
+          "line": "15",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "15",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J",
+          "line": "30",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "16",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic.java",
+          "function": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J",
+          "line": "30",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic.withdraw:(JJ)J.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "61",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V",
+          "line": "22",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 22 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 62",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "62",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 22 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 62",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V",
+          "line": "22",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.assertion.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "72",
+          "comment": "Null pointer check",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V",
+          "line": "23",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 23 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 73",
+        "property": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.assertion.2",
+        "sourceLocation": {
+          "bytecodeIndex": "73",
+          "comment": "assertion at file com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java line 23 function java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V bytecode-index 73",
+          "file": "com/example/bank/domain/BankArithmetic_withdraw_long_long_Verification.java",
+          "function": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V",
+          "line": "23",
+          "propertyClass": "assertion",
+          "propertyId": "java::com.example.bank.domain.BankArithmetic_withdraw_long_long_Verification.verify:()V.assertion.2"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION SUCCESSFUL",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "success"
+  }
+]

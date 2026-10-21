@@ -8,6 +8,7 @@ $Root = Split-Path -Parent $PSScriptRoot
 Push-Location $Root
 try {
     mvn -q test-compile
+    if ($LASTEXITCODE -ne 0) { throw "Maven compilation failed; JBMC was not started." }
 
     if (-not (Get-Command $Jbmc -ErrorAction SilentlyContinue)) {
         throw "JBMC executable '$Jbmc' was not found in PATH."
@@ -20,6 +21,7 @@ try {
     ) -join [IO.Path]::PathSeparator
 
     & $Jbmc --classpath $Classpath com.example.bank.verification.BankOperationVerificationHarness
+    if ($LASTEXITCODE -ne 0) { throw "JBMC verification failed (exit $LASTEXITCODE)." }
 }
 finally {
     Pop-Location

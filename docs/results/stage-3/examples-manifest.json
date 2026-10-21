@@ -1,0 +1,5 @@
+[
+  {"id":"DEMO-BROKEN-WITHDRAW","harness":"examples.Stage3Examples_brokenWithdraw_long_long_Verification","method":"examples.Stage3Examples.brokenWithdraw","parameters":["balance","amount"],"ranges":[{"parameter":"balance","min":"0","max":"1000"},{"parameter":"amount","min":"0","max":"1000"}],"preconditions":["balance >= amount && amount > 0"],"postconditions":["result == old(balance) - amount"],"invariants":["result >= 0"]},
+  {"id":"DEMO-CONTRADICTORY-PRECONDITIONS","harness":"examples.Stage3Examples_impossible_long_Verification","method":"examples.Stage3Examples.impossible","parameters":["amount"],"ranges":[{"parameter":"amount","min":"0","max":"1000"}],"preconditions":["amount > 100 && amount < 50"],"postconditions":["result == amount"],"invariants":[]},
+  {"id":"DEMO-PRECONDITION-OUTSIDE-BOUNDS","harness":"examples.Stage3Examples_outsideBounds_long_Verification","method":"examples.Stage3Examples.outsideBounds","parameters":["amount"],"ranges":[{"parameter":"amount","min":"0","max":"1000"}],"preconditions":["amount > 1000"],"postconditions":["result == amount"],"invariants":[]}
+]

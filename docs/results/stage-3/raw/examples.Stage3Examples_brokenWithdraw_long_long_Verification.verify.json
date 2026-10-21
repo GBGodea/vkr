@@ -1,0 +1,2617 @@
+[
+  {
+    "program": "JBMC 6.9.0 (cbmc-6.9.0)"
+  },
+  {
+    "messageText": "JBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 windows",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: examples.Stage3Examples_brokenWithdraw_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: examples.Stage3Examples_brokenWithdraw_long_long_Verification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 11 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 22 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 58 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 23 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 69 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.0076089s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 222 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 4 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 6 VCC(s), 2 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 4.7e-05s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0014936s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "2762 variables, 5559 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is SATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got SAT, and it simulates => SAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0027069s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0043012s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Building error trace",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "2762 variables, 5039 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0004462s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0004896s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "no uncaught exception",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.1",
+        "sourceLocation": {
+          "comment": "no uncaught exception",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+          "line": "15",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.1",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.2",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.3",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.3"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.4",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.4"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.5",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.5"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.6",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.6"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.7",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.7"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.8",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.8"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Array size should be >= 0",
+        "property": "array-create-negative-size.9",
+        "sourceLocation": {
+          "comment": "Array size should be >= 0",
+          "propertyClass": "array-create-negative-size",
+          "propertyId": "array-create-negative-size.9"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "1",
+          "comment": "Null pointer check",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+          "line": "4",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.null-pointer-exception.1",
+        "sourceLocation": {
+          "bytecodeIndex": "57",
+          "comment": "Null pointer check",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+          "line": "22",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.null-pointer-exception.1"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 22 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 58",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "58",
+          "comment": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 22 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 58",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+          "line": "22",
+          "propertyClass": "assertion",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.1"
+        },
+        "status": "FAILURE",
+        "trace": [
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": true,
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "__CPROVER_rounding_mode",
+            "mode": "C",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "signed int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "@inflight_exception",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$examples_Stage3Examples_brokenWithdraw_long_long_Verification$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0",
+              "data": false,
+              "name": "boolean"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "examples.Stage3Examples_brokenWithdraw_long_long_Verification@class_model.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.String",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1.length",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001101",
+              "data": "13",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1.data",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "name": "unknown"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "0000000001000110",
+                    "data": "'F'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "0000000001010110",
+                    "data": "'V'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "0000000001010000",
+                    "data": "'P'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 5,
+                  "value": {
+                    "binary": "0000000001001111",
+                    "data": "'O'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 6,
+                  "value": {
+                    "binary": "0000000001010000",
+                    "data": "'P'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 7,
+                  "value": {
+                    "binary": "0000000001000101",
+                    "data": "'E'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 8,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 9,
+                  "value": {
+                    "binary": "0000000001010100",
+                    "data": "'T'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 10,
+                  "value": {
+                    "binary": "0000000001011001",
+                    "data": "'Y'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 11,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 12,
+                  "value": {
+                    "binary": "0000000000110001",
+                    "data": "'1'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[0L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000110",
+              "data": "'F'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[1L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010110",
+              "data": "'V'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[2L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[3L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010000",
+              "data": "'P'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[4L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[5L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001111",
+              "data": "'O'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[6L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010000",
+              "data": "'P'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[7L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000101",
+              "data": "'E'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[8L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[9L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010100",
+              "data": "'T'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[10L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011001",
+              "data": "'Y'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[11L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_constarray[12L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000110001",
+              "data": "'1'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__1_return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.String",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2.length",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001101",
+              "data": "13",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2.data",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "name": "unknown"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "0000000001000110",
+                    "data": "'F'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "0000000001010110",
+                    "data": "'V'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "0000000001010000",
+                    "data": "'P'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 5,
+                  "value": {
+                    "binary": "0000000001001111",
+                    "data": "'O'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 6,
+                  "value": {
+                    "binary": "0000000001010000",
+                    "data": "'P'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 7,
+                  "value": {
+                    "binary": "0000000001000101",
+                    "data": "'E'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 8,
+                  "value": {
+                    "binary": "0000000001010010",
+                    "data": "'R'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 9,
+                  "value": {
+                    "binary": "0000000001010100",
+                    "data": "'T'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 10,
+                  "value": {
+                    "binary": "0000000001011001",
+                    "data": "'Y'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 11,
+                  "value": {
+                    "binary": "0000000001011111",
+                    "data": "'_'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                },
+                {
+                  "index": 12,
+                  "value": {
+                    "binary": "0000000000110010",
+                    "data": "'2'",
+                    "name": "integer",
+                    "type": "char",
+                    "width": 16
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[0L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000110",
+              "data": "'F'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[1L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010110",
+              "data": "'V'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[2L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[3L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010000",
+              "data": "'P'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[4L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[5L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001001111",
+              "data": "'O'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[6L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010000",
+              "data": "'P'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[7L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001000101",
+              "data": "'E'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[8L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010010",
+              "data": "'R'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[9L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001010100",
+              "data": "'T'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[10L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011001",
+              "data": "'Y'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[11L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000001011111",
+              "data": "'_'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_constarray[12L]",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000110010",
+              "data": "'2'",
+              "name": "integer",
+              "type": "char",
+              "width": 16
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "FV__PROPERTY__2_return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "uncaught_exception'",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify()",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "sourceLocation": {
+                "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+                "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+                "line": "15"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp4",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp3",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "amount",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "balance",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "org.cprover.CProver.nondetLong:()J#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "0",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "balance",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "15"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "16"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "16"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "org.cprover.CProver.nondetLong:()J#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "org.cprover.CProver.nondetLong()",
+              "identifier": "java::org.cprover.CProver.nondetLong:()J",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "16"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "amount",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "16"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "7",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "15",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "19",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "23",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp3",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "25",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "27",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "31",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "19"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "35",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "19"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp4",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "37",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "19"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "result",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "__fv_old0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp5",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000000",
+              "data": "0L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "39",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "19"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "__fv_old0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "41",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "20"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "44",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "examples.Stage3Examples.brokenWithdraw(long, long)",
+              "identifier": "java::examples.Stage3Examples.brokenWithdraw:(JJ)J",
+              "sourceLocation": {
+                "file": "examples/Stage3Examples.java",
+                "function": "java::examples.Stage3Examples.brokenWithdraw:(JJ)J",
+                "line": "17"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "44",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "balance",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "44",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "amount",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "44",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000000101",
+              "data": "5L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "examples.Stage3Examples.brokenWithdraw:(JJ)J#return_value",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "examples/Stage3Examples.java",
+              "function": "java::examples.Stage3Examples.brokenWithdraw:(JJ)J",
+              "line": "17"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000001010",
+              "data": "10L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "function": {
+              "displayName": "examples.Stage3Examples.brokenWithdraw(long, long)",
+              "identifier": "java::examples.Stage3Examples.brokenWithdraw:(JJ)J",
+              "sourceLocation": {
+                "file": "examples/Stage3Examples.java",
+                "function": "java::examples.Stage3Examples.brokenWithdraw:(JJ)J",
+                "line": "17"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp5",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "44",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000001010",
+              "data": "10L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "result",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "45",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "21"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0000000000000000000000000000000000000000000000000000000000001010",
+              "data": "10L",
+              "name": "integer",
+              "type": "long",
+              "width": 64
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "46",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "46",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$examples_Stage3Examples_brokenWithdraw_long_long_Verification$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "1",
+              "data": true,
+              "name": "boolean"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>()",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "sourceLocation": {
+                "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+                "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+                "line": "4"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "examples.Stage3Examples_brokenWithdraw_long_long_Verification@class_model",
+              "name": "pointer",
+              "type": "struct java.lang.Class *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "java.lang.Class.desiredAssertionStatus:()Z#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "line": "4"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>()",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+              "sourceLocation": {
+                "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+                "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit>:()V",
+                "line": "4"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "identifier": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "47",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "53",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "new_tmp6",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "54",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@class_identifier",
+                  "value": {
+                    "data": "java::java.lang.Class",
+                    "name": "string"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "54",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "new_tmp6",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "54",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "54",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.AssertionError",
+              "name": "string"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "57",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:(Ljava/lang/Object;)V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "57",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": true,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "57",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "stub_ignored_arg1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "57",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java.lang.String.Literal.FV__PROPERTY__1",
+              "name": "pointer",
+              "type": "struct java.lang.Object *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "to_construct",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:(Ljava/lang/Object;)V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "internal": false,
+            "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.1",
+            "reason": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 22 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 58",
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "comment": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 22 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 58",
+              "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+              "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+              "line": "22",
+              "propertyClass": "assertion",
+              "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.1"
+            },
+            "stepType": "failure",
+            "thread": 0
+          }
+        ]
+      },
+      {
+        "description": "Null pointer check",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.null-pointer-exception.2",
+        "sourceLocation": {
+          "bytecodeIndex": "68",
+          "comment": "Null pointer check",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+          "line": "23",
+          "propertyClass": "null-pointer-exception",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.null-pointer-exception.2"
+        },
+        "status": "SUCCESS"
+      },
+      {
+        "description": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 23 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 69",
+        "property": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.2",
+        "sourceLocation": {
+          "bytecodeIndex": "69",
+          "comment": "assertion at file examples/Stage3Examples_brokenWithdraw_long_long_Verification.java line 23 function java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V bytecode-index 69",
+          "file": "examples/Stage3Examples_brokenWithdraw_long_long_Verification.java",
+          "function": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V",
+          "line": "23",
+          "propertyClass": "assertion",
+          "propertyId": "java::examples.Stage3Examples_brokenWithdraw_long_long_Verification.verify:()V.assertion.2"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION FAILED",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "failure"
+  }
+]

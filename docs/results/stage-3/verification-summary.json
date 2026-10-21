@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-10-13T09:10:00.632275+00:00",
+  "examples_at": "2026-10-13T09:10:04.255081+00:00",
+  "jbmc_version": "6.9.0 (cbmc-6.9.0)",
+  "unwind": 8,
+  "java_version": "java version \"21.0.8\" 2025-07-15 LTS\r\nJava(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)\r\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)",
+  "source_sha256": {
+    "bank-application/src/main/java/com/example/bank/domain/BankArithmetic.java": "8142295d7e6f2afe9fff66084480343f1841772f18e7ffa6894f406c69b0fb34",
+    "verification-examples/Stage3Examples.java": "6e5810bd2ad50927c173074a1f04824700187ca6cc79f290ac5b58bf165a001f",
+    "scripts/verify_contracts.py": "88e618bf4bc27e5c007666ae3a1b91a0ff74b5bdde38d1f4200da8037cd60b10",
+    "formal-verification-processor/src/main/java/ru/vkr/verification/processor/ContractExpression.java": "57ef3dd06a9e2a352fdefb96946fd3ab2bdb9f520cfd07856108b32136c5ca96",
+    "formal-verification-processor/src/main/java/ru/vkr/verification/processor/VerificationProcessor.java": "dc66aec908dc8e18b18d8d3e527822ae8155a8bd60278469ebfc246f262266bc"
+  },
+  "banking": [
+    {
+      "id": "BANK-DEPOSIT-CENTS",
+      "method": "com.example.bank.domain.BankArithmetic.deposit",
+      "ranges": [
+        {
+          "parameter": "balance",
+          "min": "0",
+          "max": "1000000000000"
+        },
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000000000000"
+        }
+      ],
+      "consistency": "SATISFIABLE",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 0.105469
+    },
+    {
+      "id": "BANK-TRANSFER-CENTS",
+      "method": "com.example.bank.domain.BankArithmetic.transfer",
+      "ranges": [
+        {
+          "parameter": "source",
+          "min": "0",
+          "max": "1000000000000"
+        },
+        {
+          "parameter": "target",
+          "min": "0",
+          "max": "1000000000000"
+        },
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000000000000"
+        }
+      ],
+      "consistency": "SATISFIABLE",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 0.751486
+    },
+    {
+      "id": "BANK-WITHDRAW-CENTS",
+      "method": "com.example.bank.domain.BankArithmetic.withdraw",
+      "ranges": [
+        {
+          "parameter": "balance",
+          "min": "0",
+          "max": "1000000000000"
+        },
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000000000000"
+        }
+      ],
+      "consistency": "SATISFIABLE",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 0.133425
+    }
+  ],
+  "manual": [
+    {
+      "entry": "verifyDeposit",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 0.500837
+    },
+    {
+      "entry": "verifyWithdraw",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 0.570023
+    },
+    {
+      "entry": "verifyTransfer",
+      "status": "PROVED_WITHIN_BOUNDS",
+      "seconds": 5.525947
+    }
+  ],
+  "examples": [
+    {
+      "id": "DEMO-BROKEN-WITHDRAW",
+      "method": "examples.Stage3Examples.brokenWithdraw",
+      "ranges": [
+        {
+          "parameter": "balance",
+          "min": "0",
+          "max": "1000"
+        },
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000"
+        }
+      ],
+      "consistency": "SATISFIABLE",
+      "status": "COUNTEREXAMPLE",
+      "seconds": 0.108927,
+      "counterexample": {
+        "balance": "5L",
+        "amount": "5L",
+        "__fv_old0": "5L",
+        "result": "10L"
+      }
+    },
+    {
+      "id": "DEMO-CONTRADICTORY-PRECONDITIONS",
+      "method": "examples.Stage3Examples.impossible",
+      "ranges": [
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000"
+        }
+      ],
+      "consistency": "NO_ADMISSIBLE_INPUTS",
+      "status": "NO_ADMISSIBLE_INPUTS",
+      "seconds": 0.042374
+    },
+    {
+      "id": "DEMO-PRECONDITION-OUTSIDE-BOUNDS",
+      "method": "examples.Stage3Examples.outsideBounds",
+      "ranges": [
+        {
+          "parameter": "amount",
+          "min": "0",
+          "max": "1000"
+        }
+      ],
+      "consistency": "NO_ADMISSIBLE_INPUTS",
+      "status": "NO_ADMISSIBLE_INPUTS",
+      "seconds": 0.038028
+    }
+  ]
+}
